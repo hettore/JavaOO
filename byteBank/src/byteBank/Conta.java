@@ -4,7 +4,7 @@ public class Conta {
 	
 	//Atributos
 	double saldo;
-	int agencia;
+	int agencia = 42;
 	int numero;
 	String titular;
 	
