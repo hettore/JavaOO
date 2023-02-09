@@ -27,5 +27,10 @@ public class TestaMetodo {
 		
 		System.out.println(contaDoHettore.saldo);
 		
+		contaDoHettore.titular = "Hettore Eduardo";
+		System.out.println(contaDoHettore.titular);
+		
+		System.out.println(contaDaMarcela.titular);
+		
 	}
 }
