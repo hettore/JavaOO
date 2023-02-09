@@ -15,8 +15,8 @@ public class CriarConta {
 		Conta segundaConta = new Conta();
 		segundaConta.saldo = 50;
 		
-		System.out.println("Primeira conta tem " + primeiraConta.saldo);
-		System.out.println("Segunda conta tem " + segundaConta.saldo);
+		double total = primeiraConta.saldo + segundaConta.saldo;
+		
 		
 		
 		
