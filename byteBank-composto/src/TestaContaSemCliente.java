@@ -4,7 +4,7 @@ public class TestaContaSemCliente {
 	public static void main(String[] args) {
 		
 		Conta contaDaMarcela = new Conta();
-		System.out.println(contaDaMarcela.saldo);
+		System.out.println(contaDaMarcela.getSaldo());
 		
 		contaDaMarcela.titular = new Cliente();
 		System.out.println(contaDaMarcela.titular);
@@ -14,7 +14,7 @@ public class TestaContaSemCliente {
 		
 		
 		System.out.println(contaDaMarcela.titular.nome);
-		System.out.println(contaDaMarcela.saldo);
+		System.out.println(contaDaMarcela.getSaldo());
 
 	}
 
